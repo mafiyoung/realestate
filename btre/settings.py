@@ -86,11 +86,13 @@ WSGI_APPLICATION = 'btre.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mafiyoungdb',
-        'USER': 'postgres',
-        'PASSWORD': 'mafengkim6969',
-        'HOST': 'localhost'
-
+        'HOST': 'ec2-44-206-89-185.compute-1.amazonaws.com',
+        'NAME': 'd5pc623ts5jmh6',
+        'USER': 'fmzfvpcgxpbulr',
+        'PASSWORD': '85f21b636aa47c2c437a03c84f27336b0cc6a2ab841fdc3d772ce6a5ce7f5e79',
+        'PORT': '5432',
+        'URI': 'postgres://fmzfvpcgxpbulr:85f21b636aa47c2c437a03c84f27336b0cc6a2ab841fdc3d772ce6a5ce7f5e79@ec2-44-206-89-185.compute-1.amazonaws.com:5432/d5pc623ts5jmh6',
+        'Heroku CLI': 'heroku pg:psql postgresql-round-74935 --app estatefirm',
     }
 }
 
